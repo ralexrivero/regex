@@ -1,6 +1,11 @@
 # Ruby
 
+[ruby-lang.org](https://ruby-lang.org)
+
+[ruby-doc.org](https://ruby-doc.org)
+
 ## General
+
 - Ruby is a programming language created in 1995 by Yukihiro Matzumuto, also know as Matz.
 - Whith a syntax like Perl, Python and Smalltalk
 - Is an interpreted language, not compiled
@@ -47,3 +52,38 @@ $ 123
 ``` ruby file.rb```
 
 where file is your ruby file
+
+### irb interactive ruby shell
+
+```irb```
+
+irb(main):001:0>
+
+```irb(main):001:0> puts "Hello World"```
+
+Hello World
+=> nil
+
+#### use like a calculator
+
+irb(main):003:0> 1 + 1
+=> 2
+irb(main):004:0> 3 * 3
+=> 9
+irb(main):005:0> 3 / 3
+=> 1
+irb(main):006:0> 105 % 10
+=> 5
+irb(main):007:0> 3 - 5
+=> -2
+irb(main):008:0>
+
+#### simplify prompt
+
+```irb --simple-prompt```
+
+>>
+
+## Comment code
+
+The comment line starts with a single `#`
